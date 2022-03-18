@@ -28,3 +28,22 @@ And computes for the corresponding determinant.
 
 - use `gcc` compiler
 - command line argument: takes in a fileName/path of a txt file that has the structure of matrix mentioned above.
+
+## Sample:
+
+Assume we are given a txt file that has the following contents:
+```
+3 3
+1 2 3
+4 5 6
+7 8 9
+```
+
+By using the command as follows:
+```
+./a.out fileName.txt
+```
+The following result will be printed to the console:
+```
+The determinant is 0.00.
+```
